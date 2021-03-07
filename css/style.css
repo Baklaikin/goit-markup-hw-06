@@ -83,7 +83,7 @@ h1 {
 }
 
 .close-button:focus {
-  box-shadow: 0 0 0 1px var(--button-color);
+  fill: var(--button-color);
 }
 
 .close-button:hover {
