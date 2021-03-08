@@ -347,7 +347,11 @@ main {
   background-color: var(--footer-bg-color);
   padding: 15px 0 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  color: var(--footer-text-color);
+  color: var(--header-bg-color);
   border-radius: 4px;
   font-family: inherit;
+}
+
+.form-input::placeholder {
+  color: var(--footer-text-color);
 }
